@@ -7,4 +7,4 @@ Take a look at this page for details:
 
 I'm not responsable of a different use of this image!
 
-This image uses Drone version **`1.6.5`**.
+This image uses Drone version **`1.10.1`**.

@@ -2,7 +2,7 @@ FROM golang:1.13.7 AS builder
 
 RUN apt-get update && apt-get install -y ca-certificates
 
-ENV TAG_VERSION=v1.6.5
+ENV TAG_VERSION=v1.10.1
 
 RUN git clone -b $TAG_VERSION --depth=1 https://github.com/drone/drone
 RUN cd drone && go install -trimpath -ldflags='-w -s' -tags nolimit ./cmd/drone-server
